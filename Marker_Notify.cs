@@ -17,12 +17,7 @@ namespace Assets.Scripts
         {
             
         }
-        void pause()
-        {
-            pd.timeUpdateMode = DirectorUpdateMode.GameTime;
-            pd.Play();
-            pd.Pause();
-        }
+        
         public void OnNotify(Playable origin, INotification notification, object context)
         {
             if (notification != null)
